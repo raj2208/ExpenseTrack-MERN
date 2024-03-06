@@ -1,0 +1,55 @@
+.login-page {
+  height: 100vh !important;
+  width: 100vw !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-image: linear-gradient(to right, #ee9ca7, #ffdde1);
+  /* background-image: url("https://www.shutterstock.com/shutterstock/photos/1486855688/display_1500/stock-photo-dollar-sign-american-money-cash-background-us-bill-money-fal-1486855688.jpg");
+  background-size: cover; */
+}
+
+.login-form {
+  background-color: #ffffff;
+  /* margin-left: -5px; */
+  padding: 30px;
+}
+
+.login-form h1 {
+  text-align: center;
+  font-weight: bold;
+  margin: 30px;
+  color: #b87333;
+}
+
+.login-form .ant-form-item-label label {
+  color: #b87333 !important;
+}
+.login-form button {
+  background-color: #b87333;
+  color: white;
+  outline: none;
+}
+.login-form button:hover {
+  background-color: black;
+  color: white;
+}
+.login-form a {
+  color: #344265 !important;
+}
+
+.login-form a:hover {
+  color: rgb(226, 141, 36) !important;
+}
+
+/********/
+.heading {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  color: #4a4a4a;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
